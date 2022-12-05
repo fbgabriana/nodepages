@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 
-const port = process.env.port || 8080;
+const port = process.env.PORT || 8080;
 const hostname = "localhost";
 
 const server = http.createServer((req, res) => {
