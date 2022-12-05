@@ -1,0 +1,13 @@
+{
+  "name": "herokutest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon",
+    "testdb": "node db_connection.js",
+    "test": "echo \"Test successful. Now run 'npm start' to start the ser\" && exit 0"
+  },
+  "author": "",
+  "license": "ISC"
+}
